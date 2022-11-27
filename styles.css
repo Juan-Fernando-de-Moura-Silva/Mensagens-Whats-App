@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400;1,500&display=swap');
+
+body {
+  background: wheat;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-image: url(./img/background-whatsapp2.jpg);
+}
+
+
+.Menssagem {
+  background-color: #daf7c1;
+  width: 320px;
+  margin: 20px;
+  padding: 10px 20px;
+  border-radius: 15px;
+  box-shadow: 4px 4px rgba(99, 96, 96, 0.75);
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  color: #333;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Menssagem:hover {
+  background-color: #cdf8a8;
+  box-shadow: 6px 6px rgba(32, 32, 32, 0.8);
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.Menssagem img{
+  width: 60px;
+  margin: 10px;
+  border-radius: 5px;
+}
